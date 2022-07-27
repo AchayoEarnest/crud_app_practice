@@ -33,10 +33,10 @@ function Read() {
               <Table.Cell>{data.lastName}</Table.Cell>
               <Table.Cell>Requires call</Table.Cell>
               <Table.Cell>
-                <button style={{color:"green"}}>Update</button>
+                <Button color = "blue">Update</Button>
               </Table.Cell>
               <Table.Cell>
-                <button style={{color:"red"}}>Delete</button>
+                <Button color = "red">Delete</Button>
               </Table.Cell>
             </Table.Row>
 
